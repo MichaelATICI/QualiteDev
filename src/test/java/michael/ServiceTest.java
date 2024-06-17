@@ -1,63 +1,69 @@
 package michael;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import java.util.ArrayList;
+import static org.junit.jupiter.api.Assertions.*;
+
 public class ServiceTest {
 
-    public static void main(String[] args) {
-        ServiceTest test = new ServiceTest();
+    private Service service;
 
-        test.testAjouter();
-        test.testPrix();
-        test.testPrixEmptyList();
+    @BeforeEach
+    public void setUp() {
+        service = new Service();
     }
 
-    public void testAjouter() {
-        Service service = new Service();
-        Voiture ferrari = new Voiture("ferrari",100000.00); // Prix de 100000 pour ferrair
-        Voiture fiat = new Voiture("fiat",200000.00); // Prix de 200000 pour fiat
+    @Test
+    public void testPrixMoyenAvecUneVoiture() {
+        Voiture porsche = new Voiture("Porsche", 200000.00);
+        service.ajouter(porsche);
 
-        service.ajouter(ferrari);
-        service.ajouter(fiat);
-
-        assertEqual(2, service.tab.size(), "testAjouter: Taille de la liste incorrecte");
-        assertEqual(ferrari, service.tab.get(0), "testAjouter: ferrari incorrecte");
-        assertEqual(fiat, service.tab.get(1), "testAjouter: fiat incorrecte");
-
-        System.out.println("testAjouter ok");
+        double expected = 200000.00;
+        assertEquals(expected, service.prixMoyen(), 0.01);
     }
 
-    public void testPrix() {
-        Service service = new Service();
-        Voiture ferrari = new Voiture("ferrari",100000.00); // Prix de 10000 pour voiture1
-        Voiture fiat = new Voiture("fiat",200000.00); // Prix de 20000 pour voiture2
+    @Test
+    public void testPrixMoyenAvecPlusieursVoitures() {
+        Voiture porsche = new Voiture("Porsche", 200000.00);
+        Voiture audi = new Voiture("Audi", 250000.00);
 
-        service.ajouter(ferrari);
-        service.ajouter(fiat);
+        service.ajouter(porsche);
+        service.ajouter(audi);
 
-        int expectedTotalPrix = (int) ((100000 * 2 / 10) + (200000 * 2 / 10));
-        assertEqual(expectedTotalPrix, service.prix(), "testPrix: Prix total incorrect");
-
-        System.out.println("testPrix ok");
+        double expected = (200000.00 + 250000.00) / 2.0;
+        assertEquals(expected, service.prixMoyen(), 0.01);
     }
 
-    public void testPrixEmptyList() {
-        Service service = new Service();
-        try {
-            service.prix();
-            System.out.println("testPrixEmptyList failed: Exception attendue");
-        } catch (ArithmeticException e) {
-            System.out.println("testPrixEmptyList ok");
+
+
+        @Test
+        public void testPrixAvecUneVoiture() {
+            Voiture porsche = new Voiture("Porsche", 200000.00);
+            service.ajouter(porsche);
+
+            int expected = (int) (200000.00 * 2 / 10);
+            assertEquals(expected, service.prix());
         }
-    }
 
-    private void assertEqual(int expected, int actual, String message) {
-        if (expected != actual) {
-            throw new AssertionError(message + ". Expected: " + expected + ", but was: " + actual);
-        }
-    }
+        @Test
+        public void testPrixAvecPlusieursVoitures() {
+            Voiture porsche = new Voiture("Porsche", 200000.00);
+            Voiture audi = new Voiture("Audi", 250000.00);
 
-    private void assertEqual(Object expected, Object actual, String message) {
-        if (!expected.equals(actual)) {
-            throw new AssertionError(message + ". Expected: " + expected + ", but was: " + actual);
+            service.ajouter(porsche);
+            service.ajouter(audi);
+
+            int expected = (int) (200000.00 * 2 / 10 + 250000.00 * 2 / 10);
+            assertEquals(expected, service.prix());
         }
+
+        @Test
+        public void testPrixMoyenListeVide() {
+
+            assertTrue(service.tab.isEmpty());
+            String expected = "La liste des voitures est vide.";
+            assertEquals(expected,service.prixMoyen());
     }
 }
+
