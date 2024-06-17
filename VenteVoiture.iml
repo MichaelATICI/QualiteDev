@@ -8,6 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter:5.9.0" level="project" />
+    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-engine:5.10.2" level="project" />
+    <orderEntry type="library" name="org.junit.platform:junit-platform-suite-engine:1.10.2" level="project" />
   </component>
 </module>
