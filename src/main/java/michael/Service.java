@@ -33,9 +33,7 @@ public class Service implements Statistique {
     }
 
     public double prixMoyen() {
-        if (tab.isEmpty()) {
-            throw new ArithmeticException("La liste des voitures est vide.");
-        }
+
 
         int totalPrix = 0;
         for (Voiture voiture : tab) {
