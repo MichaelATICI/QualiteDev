@@ -36,34 +36,25 @@ public class ServiceTest {
     }
 
 
+    @Test
+    public void testPrixAvecUneVoiture() {
+        Voiture porsche = new Voiture("Porsche", 200000.00);
+        service.ajouter(porsche);
 
-        @Test
-        public void testPrixAvecUneVoiture() {
-            Voiture porsche = new Voiture("Porsche", 200000.00);
-            service.ajouter(porsche);
-
-            int expected = (int) (200000.00 * 2 / 10);
-            assertEquals(expected, service.prix());
-        }
-
-        @Test
-        public void testPrixAvecPlusieursVoitures() {
-            Voiture porsche = new Voiture("Porsche", 200000.00);
-            Voiture audi = new Voiture("Audi", 250000.00);
-
-            service.ajouter(porsche);
-            service.ajouter(audi);
-
-            int expected = (int) (200000.00 * 2 / 10 + 250000.00 * 2 / 10);
-            assertEquals(expected, service.prix());
-        }
-
-        @Test
-        public void testPrixMoyenListeVide() {
-
-            assertTrue(service.tab.isEmpty());
-            String expected = "La liste des voitures est vide.";
-            assertEquals(expected,service.prixMoyen());
+        int expected = (int) (200000.00 * 2 / 10);
+        assertEquals(expected, service.prix());
     }
-}
 
+    @Test
+    public void testPrixAvecPlusieursVoitures() {
+        Voiture porsche = new Voiture("Porsche", 200000.00);
+        Voiture audi = new Voiture("Audi", 250000.00);
+
+        service.ajouter(porsche);
+        service.ajouter(audi);
+
+        int expected = (int) (200000.00 * 2 / 10 + 250000.00 * 2 / 10);
+        assertEquals(expected, service.prix());
+    }
+
+}

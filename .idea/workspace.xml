@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b9b35d-4b8f-4cc2-8ff7-54a11a1a1ce5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/actions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/actions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/michael/demoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VenteVoiture/michael/Voiture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VenteVoiture/michael/Voiture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/VenteVoiture/michael/ServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/VenteVoiture/michael/ServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/VenteVoiture/michael/VoitureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/VenteVoiture/michael/VoitureTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/michael/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/michael/Voiture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VenteVoiture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VenteVoiture.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/VenteVoiture/michael/suiteTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/michael/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/michael/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/michael/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/michael/ServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/michael/VoitureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/michael/VoitureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/michael/SuiteTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="490" />
+    <option name="myElementSize" value="20" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -31,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/michael/Voiture.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -40,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/michael/VoitureTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/michael/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="73" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="73" />
+            <state relative-caret-position="286">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding>
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -64,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/michael/ServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="62" />
+            <state relative-caret-position="406">
+              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
@@ -84,20 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="301">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/michael/SuiteTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/michael/demoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+            <state relative-caret-position="180">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,15 +145,17 @@
         <option value="$PROJECT_DIR$/src/main/java/michael/Voiture.java" />
         <option value="$PROJECT_DIR$/src/test/java/michael/VoitureTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/michael/SuiteTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/michael/ServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/michael/Service.java" />
         <option value="$PROJECT_DIR$/.github/workflows/actions.yml" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/michael/demoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/michael/ServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/michael/Service.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="71" />
+    <option name="x" value="80" />
+    <option name="y" value="42" />
     <option name="width" value="1507" />
     <option name="height" value="960" />
   </component>
@@ -273,19 +273,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.ServiceTest">
-    <configuration name="ServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="michael.ServiceTest" />
-      <module name="VenteVoiture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="michael.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VenteVoiture" />
       <extension name="coverage">
@@ -301,6 +288,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceTest.testPrixMoyenListeVide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VenteVoiture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="michael.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="michael" />
+      <option name="MAIN_CLASS_NAME" value="michael.ServiceTest" />
+      <option name="METHOD_NAME" value="testPrixMoyenListeVide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VoitureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VenteVoiture" />
       <extension name="coverage">
@@ -311,6 +314,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="michael" />
       <option name="MAIN_CLASS_NAME" value="michael.VoitureTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VenteVoiture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="michael.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="michael" />
+      <option name="MAIN_CLASS_NAME" value="michael.demoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -334,7 +352,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ServiceTest" />
-        <item itemvalue="Application.ServiceTest" />
+        <item itemvalue="JUnit.ServiceTest.testPrixMoyenListeVide" />
+        <item itemvalue="JUnit.demoTest" />
         <item itemvalue="JUnit.VoitureTest" />
         <item itemvalue="JUnit.suiteTest" />
       </list>
@@ -354,27 +373,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VoitureTest - 2024.06.17 at 16h 21m 32s.xml">
-      <configuration name="VoitureTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VoitureTest - 2024.06.17 at 16h 22m 40s.xml">
-      <configuration name="VoitureTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VoitureTest - 2024.06.17 at 16h 22m 54s.xml">
-      <configuration name="VoitureTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VoitureTest - 2024.06.17 at 16h 23m 10s.xml">
-      <configuration name="VoitureTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServiceTest - 2024.06.17 at 16h 35m 13s.xml">
-      <configuration name="ServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServiceTest - 2024.06.17 at 16h 38m 36s.xml">
-      <configuration name="ServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServiceTest - 2024.06.17 at 16h 45m 11s.xml">
-      <configuration name="ServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ServiceTest - 2024.06.17 at 16h 46m 37s.xml">
       <configuration name="ServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -383,6 +381,27 @@
     </history-entry>
     <history-entry file="ServiceTest - 2024.06.17 at 16h 48m 15s.xml">
       <configuration name="ServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceTest - 2024.06.17 at 16h 58m 02s.xml">
+      <configuration name="ServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="suiteTest - 2024.06.17 at 16h 58m 12s.xml">
+      <configuration name="suiteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="suiteTest - 2024.06.17 at 16h 59m 11s.xml">
+      <configuration name="suiteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoitureTest - 2024.06.17 at 16h 59m 26s.xml">
+      <configuration name="VoitureTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demoTest - 2024.06.17 at 16h 59m 34s.xml">
+      <configuration name="demoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demoTest - 2024.06.17 at 17h 00m 36s.xml">
+      <configuration name="demoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceTest_testPrixMoyenListeVide - 2024.06.17 at 17h 00m 55s.xml">
+      <configuration name="ServiceTest.testPrixMoyenListeVide" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -395,10 +414,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="31" width="1926" height="1003" extended-state="6" />
+    <frame x="80" y="42" width="1507" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2342918" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30157644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,7 +426,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32839224" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32733813" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39928058" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,7 +443,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.40947816" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.19671008" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23440713" />
@@ -460,10 +479,10 @@
     <SUITE FILE_PATH="coverage/VenteVoiture$ServiceTest.ic" NAME="ServiceTest Coverage Results" MODIFIED="1718269194427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>michael.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/QualiteDev$ServiceTest.ic" NAME="ServiceTest Coverage Results" MODIFIED="1718635694402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/QualiteDev$ServiceTest.ic" NAME="ServiceTest Coverage Results" MODIFIED="1718636563909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>michael.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/QualiteDev$VoitureTest.ic" NAME="VoitureTest Coverage Results" MODIFIED="1718634189878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/QualiteDev$VoitureTest.ic" NAME="VoitureTest Coverage Results" MODIFIED="1718636365519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>michael.*</FILTER>
     </SUITE>
   </component>
@@ -508,17 +527,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/michael/Voiture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/michael/SuiteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -532,32 +541,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/michael/VoitureTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/michael/ServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/michael/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="73" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="73" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -569,10 +555,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/michael/SuiteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="301">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/michael/demoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/michael/ServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/michael/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -651,7 +680,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.junit.platform:junit-platform-suite-engine:1.10.2</last-edited>
+          <last-edited>org.junit.jupiter:junit-jupiter-engine:5.10.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
