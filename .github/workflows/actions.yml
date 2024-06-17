@@ -19,4 +19,4 @@ jobs:
       - name: Generate JaCoCo Badge
         uses: cicirello/jacoco-badge-generator@v2
         with:
-          jacoco-csv-file: bui
+          jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
